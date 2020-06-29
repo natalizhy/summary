@@ -1,3 +1,52 @@
 .u-text-center {
     text-align: center !important;
 }
+
+.img {
+    width: 220px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.img-bg {
+    position: absolute;
+    height: 300px;
+    width: 220px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #7f8fa4;
+    /*border: 1px solid #e6eaee;*/
+    /*border-radius: 4px;*/
+    padding: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.dz-icon {
+    height: 40px;
+    width: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.update {
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.hoverable {
+    opacity: 0;
+}
+
+.image-user {
+    display: none;
+}
